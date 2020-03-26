@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="646.0" prefWidth="520.0" style="-fx-background-color: #2B2B2B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="97.0" prefHeight="558.0" prefWidth="520.0">
+         <children>
+            <TextField layoutX="177.0" layoutY="115.0" prefHeight="32.0" prefWidth="262.0" style="-fx-background-insets: 0; -fx-background-color: #313335; -fx-border-color: #3C3F41; -fx-border-radius: 20; -fx-background-radius: 20;" styleClass="text-input" stylesheets="@css/text-style.css" />
+            <Label layoutX="61.0" layoutY="108.0" prefHeight="42.0" prefWidth="96.0" text="Movie Titile" textFill="#f2f2f2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField layoutX="177.0" layoutY="182.0" prefHeight="32.0" prefWidth="262.0" style="-fx-background-insets: 0; -fx-background-color: #313335; -fx-border-color: #3C3F41; -fx-border-radius: 20; -fx-background-radius: 20;" styleClass="text-input" stylesheets="@css/text-style.css" />
+            <TextField layoutX="177.0" layoutY="242.0" prefHeight="32.0" prefWidth="262.0" style="-fx-background-insets: 0; -fx-background-color: #313335; -fx-border-color: #3C3F41; -fx-border-radius: 20; -fx-background-radius: 20;" styleClass="text-input" stylesheets="@css/text-style.css" />
+            <Label layoutX="29.0" layoutY="235.0" prefHeight="42.0" prefWidth="138.0" text="Movie Time (mins)" textFill="#f2f2f2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="61.0" layoutY="175.0" prefHeight="42.0" prefWidth="96.0" text="Movie Genre" textFill="#f2f2f2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="98.0" layoutY="355.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="117.0" style="-fx-background-color: #FFB92E; -fx-background-radius: 20; -fx-border-radius: 20;" text="Cancel" textFill="#f2f2f2" />
+            <Button layoutX="285.0" layoutY="355.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="117.0" style="-fx-background-color: #D62C1B; -fx-background-radius: 20; -fx-border-radius: 20;" text="Add Movie!" textFill="#f2f2f2" />
+            <Separator layoutX="59.0" layoutY="33.0" opacity="0.15" prefHeight="42.0" prefWidth="402.0" />
+            <Separator layoutX="59.0" layoutY="437.0" opacity="0.15" prefHeight="42.0" prefWidth="402.0" />
+         </children>
+      </Pane>
+      <Label alignment="CENTER" layoutX="103.0" layoutY="55.0" prefHeight="42.0" prefWidth="314.0" text="ADDING NEW MOVIE" textFill="#f2f2f2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelExit" layoutX="500.0" layoutY="-2.0" onMouseClicked="#labelExitClicked" prefHeight="32.0" prefWidth="13.0" text="X" textFill="#f2f2f2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
